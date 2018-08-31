@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>pChord</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+    <nav id="menu">
+        <div class="btndiv" id="songlist">
+        </div>
+        <div class="divider"> </div>
+        <div class="btndiv">
+            <form id="tone_form">
+                <label for="tone">Tono:</label>
+                <input type = "text" name="tone" id="tone" class="tone_input"></input>
+            </form>
+            <button type="button" id="tone_button">Aplicar!</button>
+        <div>
+        <div>
+            <button type="button" id="tone_up"></button>
+            <button type="button" id="tone_down"></button>            
+        </div>
+        <div class="divider"> </div>
+        <div class="btndiv">
+            <button type="button" id="cycle">Cycle!</button>
+        </div>
+    </nav>
+    <ul class="flex-container wrap" id ="SONG">
+    </ul>
+
+    <script src=jquery_dbg.js></script>
+    <script src=songs.js></script>
+    <script src=app.js></script>
+</body>
+
+</html>
